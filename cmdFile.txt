@@ -1,0 +1,26 @@
+adb shell am start com.alibaba.android.rimet/com.alibaba.android.rimet.biz.LaunchHomeActivity,1000
+adb shell input tap 267 439, 10000
+adb shell input tap  628 427, 2000
+adb shell input tap  267 439, 2000
+adb shell input text 18380460383, 1000
+adb shell input tap  383 571, 1000
+adb shell input tap 622 564, 1000
+adb shell input tap  383 571, 1000
+adb shell input text mn19940708, 1000
+adb shell input keyevent 4, 1000
+adb shell input tap 78 843, 1000
+adb shell input tap 383 684, 1000
+adb shell input tap 347 1218, 40000
+adb shell input tap 88 745, 40000
+adb shell input tap 364 770, 60000
+adb shell screencap -p /sdcard/dd.jpg,10000
+adb pull /sdcard/dd.jpg /Users/jtzhtc_pengjiajia/NodeProject/RongIm/dd.png,2000
+adb shell input keyevent 4,5000
+adb shell input tap 65 1232, 2000
+adb shell input tap 73 113, 2000
+adb shell input tap 209 560, 2000
+adb shell input swipe 350 1000 350 200 1000 , 1000
+adb shell input tap 354 1132, 10000
+adb shell input tap 520 712, 1000
+adb shell input keyevent 3, 10000
+Send,1000

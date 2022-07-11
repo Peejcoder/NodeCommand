@@ -1,0 +1,3 @@
+adb shell screencap -p /sdcard/dd.jpg,1000
+adb pull /sdcard/dd.jpg /Users/jtzhtc_pengjiajia/NodeProject/RongIm/dd.png,3000
+Send,1000
